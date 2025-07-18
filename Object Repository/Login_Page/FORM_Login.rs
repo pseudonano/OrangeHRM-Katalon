@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FORM_Login</name>
+   <tag></tag>
+   <elementGuidId>851a15ad-8320-4979-9cdf-a8e4b4be7b14</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'orangehrm-login-container']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='orangehrm-login-form']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>orangehrm-login-container</value>
+      <webElementGuid>34a0d61e-8751-4a9b-850f-2521cbb0bd47</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

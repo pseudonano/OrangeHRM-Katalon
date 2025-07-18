@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Scenario_LoginLogout</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>407b8caa-95df-496a-ba97-7b8c9b693dde</testSuiteGuid>
+   <testCaseLink>
+      <guid>faa3a7e4-228c-4a81-ba79-3b7933897840</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Common_TC/Login/TC_Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1e8b6e7f-a9b4-48b7-a0ca-31f435bb7de0</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
+         </iterationEntity>
+         <testDataId>Data Files/credentials</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>1e8b6e7f-a9b4-48b7-a0ca-31f435bb7de0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>29e3ec01-f527-4653-9a66-9d60e7ab0595</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1e8b6e7f-a9b4-48b7-a0ca-31f435bb7de0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>0b68a9eb-0411-4bf4-b2ee-7480149eae53</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1e8b6e7f-a9b4-48b7-a0ca-31f435bb7de0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedResult</value>
+         <variableId>3b8ee43e-2a8c-4c52-8a7c-c1bb00260e30</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ff51394f-137d-41df-8f32-d25c01bbf88a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Common_TC/Logout/TC_Logout</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>
