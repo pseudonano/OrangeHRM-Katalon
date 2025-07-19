@@ -13,7 +13,7 @@ This repository contains automated test scripts for OrangeHRM (an open-source HR
 
 Before running the tests, ensure you have the following installed:
 
-- [Katalon Studio](https://www.katalon.com/) (version 7.0 or higher)
+- [Katalon Studio](https://www.katalon.com/) (version 10.0.0 or higher)
 - Java JDK 8 or 11
 - OrangeHRM application (can use the demo version at https://opensource-demo.orangehrmlive.com/)
 - Git (for cloning the repository)
