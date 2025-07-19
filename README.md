@@ -1,7 +1,7 @@
 # OrangeHRM Test Automation with Katalon
 
-![Katalon Studio](https://img.shields.io/badge/Katalon-v7.0+-blue.svg)
-![OrangeHRM](https://img.shields.io/badge/OrangeHRM-4.0+-orange.svg)
+![Katalon Studio](https://img.shields.io/badge/Katalon-v10.0.0+-blue.svg)
+![OrangeHRM](https://img.shields.io/badge/OrangeHRM-5.0+-orange.svg)
 
 This repository contains automated test scripts for OrangeHRM (an open-source HR management system) using Katalon Studio. The tests cover various functional areas of the OrangeHRM application.
 
