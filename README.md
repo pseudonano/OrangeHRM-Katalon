@@ -8,11 +8,6 @@ This repository contains automated test scripts for OrangeHRM (an open-source HR
 ## Table of Contents
 - [Prerequisites](#prerequisites)
 - [Setup Instructions](#setup-instructions)
-- [Test Structure](#test-structure)
-- [Running Tests](#running-tests)
-- [Reporting](#reporting)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Prerequisites
 
