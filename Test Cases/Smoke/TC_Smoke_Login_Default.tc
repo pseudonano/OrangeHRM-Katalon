@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_Login</name>
+   <name>TC_Smoke_Login_Default</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
@@ -25,21 +25,21 @@
       <variableId>3b8ee43e-2a8c-4c52-8a7c-c1bb00260e30</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('credentials').getValue(1, 1)</defaultValue>
       <description></description>
       <id>29e3ec01-f527-4653-9a66-9d60e7ab0595</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('credentials').getValue(2, 1)</defaultValue>
       <description></description>
       <id>0b68a9eb-0411-4bf4-b2ee-7480149eae53</id>
       <masked>false</masked>
       <name>password</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('credentials').getValue(3, 1)</defaultValue>
       <description></description>
       <id>3b8ee43e-2a8c-4c52-8a7c-c1bb00260e30</id>
       <masked>false</masked>

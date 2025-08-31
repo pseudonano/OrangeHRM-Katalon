@@ -18,25 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.base_url)
-WebUI.callTestCase(findTestCase('Test Cases/Common_TC/Utils_TC/utils_maximize_window'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Test Cases/Common/Utils_TC/utils_maximize_window'), null, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Login_Page/FORM_Login'), 10)
 
-WebUI.sendKeys(findTestObject('Login_Page/FIELD_Username'), username)
-
-WebUI.sendKeys(findTestObject('Login_Page/FIELD_Password'), password)
-
-WebUI.click(findTestObject('Login_Page/BUTTON_Login'))
-
-if (expected_result == 'success') {
-	WebUI.verifyElementPresent(findTestObject('Object Repository/Header_Page/DROPDOWN_UserDropdown'), 2, FailureHandling.STOP_ON_FAILURE)
-	WebUI.comment("✅ Login successful")
-} else if (expected_result == 'failed') {
-	WebUI.verifyElementPresent(findTestObject('Object Repository/Err_Login/Text_Required'), 2, FailureHandling.STOP_ON_FAILURE)
-	WebUI.comment("❌ Login failed")
-} else if (expected_result == 'invalid') {
-	WebUI.verifyElementPresent(findTestObject('Object Repository/Err_Login/Err_Invalid_Credentials'), 2, FailureHandling.STOP_ON_FAILURE)
-} else {
-	WebUI.comment("⚠️ Unexpected expected_result value: " + expected_result)
-}
+CustomKeywords.'orangeHRM.Auth.loginDefault'()
+CustomKeywords.'orangeHRM.AssertUtils.assertLogin'('success')
 

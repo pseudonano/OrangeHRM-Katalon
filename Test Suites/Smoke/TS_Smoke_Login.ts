@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Scenario_LoginLogout</name>
+   <name>TS_Smoke_Login</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,46 +10,37 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>407b8caa-95df-496a-ba97-7b8c9b693dde</testSuiteGuid>
+   <testSuiteGuid>04bbca81-d409-46d3-b1bd-d7f30089a0f1</testSuiteGuid>
    <testCaseLink>
-      <guid>faa3a7e4-228c-4a81-ba79-3b7933897840</guid>
+      <guid>577cd4f9-5470-4dd9-81f7-a1867614d0ab</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Common_TC/Login/TC_Login</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>1e8b6e7f-a9b4-48b7-a0ca-31f435bb7de0</id>
-         <iterationEntity>
-            <iterationType>SPECIFIC</iterationType>
-            <value>1</value>
-         </iterationEntity>
-         <testDataId>Data Files/credentials</testDataId>
-      </testDataLink>
+      <testCaseId>Test Cases/Smoke/TC_Smoke_Login_Default</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>1e8b6e7f-a9b4-48b7-a0ca-31f435bb7de0</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>username</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>29e3ec01-f527-4653-9a66-9d60e7ab0595</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1e8b6e7f-a9b4-48b7-a0ca-31f435bb7de0</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>password</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>0b68a9eb-0411-4bf4-b2ee-7480149eae53</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1e8b6e7f-a9b4-48b7-a0ca-31f435bb7de0</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>expectedResult</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>3b8ee43e-2a8c-4c52-8a7c-c1bb00260e30</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>ff51394f-137d-41df-8f32-d25c01bbf88a</guid>
+      <guid>80ab1900-e377-4f81-ab7e-5fbfad55efde</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Common_TC/Logout/TC_Logout</testCaseId>
+      <testCaseId>Test Cases/Common/Logout/TC_Logout</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -11,12 +11,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>findTestData('credentials').getValue('username', 1)</initValue>
-      <name>username</name>
+      <initValue>'Admin'</initValue>
+      <name>Username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>findTestData('config').getValue('password', 1)</initValue>
-      <name>password</name>
+      <initValue>'admin123'</initValue>
+      <name>Password</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
