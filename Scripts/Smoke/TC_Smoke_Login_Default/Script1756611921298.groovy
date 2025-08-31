@@ -17,9 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.base_url)
-WebUI.callTestCase(findTestCase('Test Cases/Common/Utils_TC/utils_maximize_window'), null, FailureHandling.STOP_ON_FAILURE)
-
 
 CustomKeywords.'orangeHRM.Auth.loginDefault'()
 CustomKeywords.'orangeHRM.AssertUtils.assertLogin'('success')
