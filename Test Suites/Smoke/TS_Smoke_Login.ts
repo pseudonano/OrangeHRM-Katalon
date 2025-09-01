@@ -12,10 +12,24 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>04bbca81-d409-46d3-b1bd-d7f30089a0f1</testSuiteGuid>
    <testCaseLink>
-      <guid>577cd4f9-5470-4dd9-81f7-a1867614d0ab</guid>
+      <guid>0482c76d-146b-4eb4-b0c7-01613980a4a4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Smoke/TC_Smoke_Login_Default</testCaseId>
+      <testCaseId>Test Cases/Smoke/Smoke_Login/TC_Smoke_Login_Empty</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fa2ac561-b7be-4805-98d5-cc99ddf15b2a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke/Smoke_Login/TC_Smoke_Login_Invalid</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4921b6ba-dac1-4d42-af6c-1969fd98b54f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke/Smoke_Login/TC_Smoke_Login_Valid</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -35,12 +49,5 @@
          <value></value>
          <variableId>3b8ee43e-2a8c-4c52-8a7c-c1bb00260e30</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>80ab1900-e377-4f81-ab7e-5fbfad55efde</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Common/Logout/TC_Logout</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -26,7 +26,7 @@ public class AssertUtils {
 		if (expected == 'success') {
 			WebUI.verifyElementPresent(findTestObject('Object Repository/Header_Page/DROPDOWN_UserDropdown'), 2, FailureHandling.STOP_ON_FAILURE)
 			WebUI.comment("✅ Login successful")
-		} else if (expected == 'failed') {
+		} else if (expected == 'empty') {
 			WebUI.verifyElementPresent(findTestObject('Object Repository/Err_Login/Text_Required'), 2, FailureHandling.STOP_ON_FAILURE)
 			WebUI.comment("❌ Login failed")
 		} else if (expected == 'invalid') {

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>credentials</name>
+   <name>user_login</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
-   <dataFileGUID>4aa5da81-2874-4d01-9ea7-8f378aa63944</dataFileGUID>
+   <dataFileGUID>b06dc553-7cab-46e9-9ea7-74ea64542426</dataFileGUID>
    <dataSourceUrl>/Users/tegpam/Katalon Studio/OrangeHRM-Katalon/Data Files/CSV_Data/credential.csv</dataSourceUrl>
    <driver>CSV</driver>
    <isInternalPath>false</isInternalPath>
