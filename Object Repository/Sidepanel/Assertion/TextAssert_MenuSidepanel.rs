@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Link_Admin</name>
+   <name>TextAssert_MenuSidepanel</name>
    <tag></tag>
-   <elementGuidId>773dd1c5-6089-48de-87f0-399720e9e8d6</elementGuidId>
+   <elementGuidId>8fe554c2-2cdf-4d15-bc3e-2b967304fc3a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//ul[@class='oxd-main-menu']/li/a[normalize-space()='Admin']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//span[@class='oxd-topbar-header-breadcrumb']//h6[normalize-space()='${assertSidepanel}']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
          <value></value>
       </entry>
    </selectorCollection>

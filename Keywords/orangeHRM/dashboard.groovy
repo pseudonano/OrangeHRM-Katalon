@@ -20,24 +20,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-public class AssertUtils {
+public class dashboard {
 	@Keyword
-	def assertLogin(String expected) {
-		if (expected == 'success') {
-			WebUI.verifyElementPresent(findTestObject('Object Repository/Header_Page/DROPDOWN_UserDropdown'), 2, FailureHandling.STOP_ON_FAILURE)
-			WebUI.comment("✅ Login successful")
-		} else if (expected == 'empty') {
-			WebUI.verifyElementPresent(findTestObject('Object Repository/Err_Login/Text_Required'), 2, FailureHandling.STOP_ON_FAILURE)
-			WebUI.comment("❌ Login failed")
-		} else if (expected == 'invalid') {
-			WebUI.verifyElementPresent(findTestObject('Object Repository/Err_Login/Err_Invalid_Credentials'), 2, FailureHandling.STOP_ON_FAILURE)
-		} else {
-			WebUI.comment("⚠️ Unexpected expected_result value: " + expected)
-		}
-	}
-
-	@Keyword
-	def assertSidepanel(String sideMenu) {
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Sidepanel/Assertion/TextAssert_MenuSidepanel',[('assertSidepanel'):sideMenu]), 5, FailureHandling.STOP_ON_FAILURE)
+	def navigateSidepanel(String sideMenu) {
+		WebUI.click(findTestObject('Object Repository/Sidepanel/Menu_Sidepanel',[('sidepanel'):sideMenu]), FailureHandling.STOP_ON_FAILURE)
 	}
 }
