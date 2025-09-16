@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>user_login</name>
+   <name>navigationSidemenu</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
-   <csvSeperator>COMMA</csvSeperator>
-   <dataFileGUID>b06dc553-7cab-46e9-9ea7-74ea64542426</dataFileGUID>
-   <dataSourceUrl>/Users/tegpam/Katalon Studio/OrangeHRM-Katalon/Data Files/CSV_Data/credential.csv</dataSourceUrl>
-   <driver>CSV</driver>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>cf113631-1392-4c3b-9a94-b968c7c457d4</dataFileGUID>
+   <dataSourceUrl>/Users/tegpam/Katalon Studio/OrangeHRM-Katalon/Data Files/Excel_Data/navigation.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName></sheetName>
+   <sheetName>navigation</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

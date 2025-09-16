@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_Smoke_Login_Invalid</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>78a4ee8b-23ee-4b90-a5e7-0727c4cbeeca</testCaseGuid>
-</TestCaseEntity>

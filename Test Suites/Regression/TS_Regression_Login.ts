@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS_Smoke_Login</name>
+   <name>TS_Regression_Login</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,36 +10,36 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>04bbca81-d409-46d3-b1bd-d7f30089a0f1</testSuiteGuid>
+   <testSuiteGuid>7d728c3c-3a23-44c8-b670-5fd8a2df9f53</testSuiteGuid>
    <testCaseLink>
-      <guid>96b97b82-6626-4694-8ef8-f4315a3c82ed</guid>
+      <guid>739a328f-8663-411b-8924-e14e4fb604cd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Common/Login/TC_Login_DataDriven</testCaseId>
       <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>89023a37-a491-49a4-b27e-7d300e4e3536</id>
+         <combinationType>MANY</combinationType>
+         <id>36ac9b0c-048b-4e33-9d3f-854af844a70f</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>1-1</value>
+            <iterationType>ALL</iterationType>
+            <value></value>
          </iterationEntity>
          <testDataId>Data Files/LoginData</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>89023a37-a491-49a4-b27e-7d300e4e3536</testDataLinkId>
+         <testDataLinkId>36ac9b0c-048b-4e33-9d3f-854af844a70f</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>username</value>
          <variableId>14d79b4d-7821-406c-8b80-67d90331b1b5</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>89023a37-a491-49a4-b27e-7d300e4e3536</testDataLinkId>
+         <testDataLinkId>36ac9b0c-048b-4e33-9d3f-854af844a70f</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>aecb40dd-75ba-4e5a-a320-0d712ccb8dd9</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>89023a37-a491-49a4-b27e-7d300e4e3536</testDataLinkId>
+         <testDataLinkId>36ac9b0c-048b-4e33-9d3f-854af844a70f</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>expected</value>
          <variableId>ab8956a1-108d-46ad-bef0-68e0e2a7d44a</variableId>

@@ -24,12 +24,15 @@ public class AssertUtils {
 	@Keyword
 	def assertLogin(String expected) {
 		if (expected == 'success') {
+			WebUI.waitForElementPresent(findTestObject('Object Repository/Header_Page/DROPDOWN_UserDropdown'), 10)
 			WebUI.verifyElementPresent(findTestObject('Object Repository/Header_Page/DROPDOWN_UserDropdown'), 2, FailureHandling.STOP_ON_FAILURE)
 			WebUI.comment("✅ Login successful")
 		} else if (expected == 'empty') {
+			WebUI.waitForElementPresent(findTestObject('Object Repository/Err_Login/Text_Required'), 10)
 			WebUI.verifyElementPresent(findTestObject('Object Repository/Err_Login/Text_Required'), 2, FailureHandling.STOP_ON_FAILURE)
 			WebUI.comment("❌ Login failed")
 		} else if (expected == 'invalid') {
+			WebUI.waitForElementPresent(findTestObject('Object Repository/Err_Login/Err_Invalid_Credentials'), 10)
 			WebUI.verifyElementPresent(findTestObject('Object Repository/Err_Login/Err_Invalid_Credentials'), 2, FailureHandling.STOP_ON_FAILURE)
 		} else {
 			WebUI.comment("⚠️ Unexpected expected_result value: " + expected)

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_Smoke_Navigation_Time</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>37c1185b-008b-4d04-9577-c1da2276dc73</testCaseGuid>
-</TestCaseEntity>

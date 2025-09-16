@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_Smoke_Navigation_MyInfo</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>6378a201-2357-40cf-ab93-85e40252d833</testCaseGuid>
-</TestCaseEntity>

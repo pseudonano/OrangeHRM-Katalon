@@ -17,8 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
-CustomKeywords.'orangeHRM.Auth.loginDefault'()
-CustomKeywords.'orangeHRM.AssertUtils.assertLogin'('success')
-WebUI.callTestCase(findTestCase('Test Cases/Common/Logout/TC_Logout'), null, FailureHandling.STOP_ON_FAILURE)
-
+CustomKeywords.'orangeHRM.dashboard.navigateSidepanel'(sidemenu)
+CustomKeywords.'orangeHRM.AssertUtils.assertSidepanel'(expected_sidemenu)

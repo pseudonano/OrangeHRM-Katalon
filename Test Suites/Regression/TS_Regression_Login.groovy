@@ -19,10 +19,8 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 
 import internal.GlobalVariable as GlobalVariable
 
-import com.kms.katalon.core.annotation.SetUp
-import com.kms.katalon.core.annotation.SetupTestCase
-import com.kms.katalon.core.annotation.TearDown
-import com.kms.katalon.core.annotation.TearDownTestCase
+import com.kms.katalon.core.annotation.*
+import com.kms.katalon.core.configuration.RunConfiguration
 
 /**
  * Some methods below are samples for using SetUp/TearDown in a test suite.
@@ -45,7 +43,6 @@ def setUp() {
 @TearDown(skipped = false) // Please change skipped to be false to activate this method.
 def tearDown() {
 	// Put your code here.
-	WebUI.callTestCase(findTestCase('Test Cases/Common/Logout/TC_Logout'), null, FailureHandling.STOP_ON_FAILURE)
 	WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 }
 
@@ -60,9 +57,12 @@ def setupTestCase() {
 /**
  * Run after each test case ends.
  */
-@TearDownTestCase(skipped = true) // Please change skipped to be false to activate this method.
+@TearDownTestCase(skipped = false) // Please change skipped to be false to activate this method.
 def tearDownTestCase() {
-	// Put your code here.
+	// Put your code here.\
+	if (GlobalVariable.expected_login=='success') {
+		WebUI.callTestCase(findTestCase('Test Cases/Common/Logout/TC_Logout'), null, FailureHandling.STOP_ON_FAILURE)
+	}
 }
 
 /**

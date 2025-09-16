@@ -17,5 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'orangeHRM.Auth.login'("", "admin1")
-CustomKeywords.'orangeHRM.AssertUtils.assertLogin'("empty")
+
+CustomKeywords.'orangeHRM.Auth.loginDefault'()
+CustomKeywords.'orangeHRM.AssertUtils.assertLogin'('success')
+

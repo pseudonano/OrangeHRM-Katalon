@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Smoke_Navigation_DataDriven</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d81dc946-8ef5-43aa-8d22-475db7541aac</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>23d03123-75ef-46fe-8083-cbc23169460e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7c6d869f-a330-4db6-a3bf-c973aaa7ef20</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>23d03123-75ef-46fe-8083-cbc23169460e</id>
+      <masked>false</masked>
+      <name>sidemenu</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7c6d869f-a330-4db6-a3bf-c973aaa7ef20</id>
+      <masked>false</masked>
+      <name>expected_sidemenu</name>
+   </variable>
+</TestCaseEntity>

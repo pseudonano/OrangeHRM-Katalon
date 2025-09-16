@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_Smoke_Navigation_Recruitment</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>c6db2251-4fb5-4165-bc3b-08a306e94066</testCaseGuid>
-</TestCaseEntity>

@@ -37,7 +37,6 @@ def setUp() {
 	WebUI.openBrowser('')
 	WebUI.navigateToUrl(GlobalVariable.base_url, FailureHandling.STOP_ON_FAILURE)
 	WebUI.maximizeWindow()
-	CustomKeywords.'orangeHRM.Auth.loginDefault'()
 }
 
 /**

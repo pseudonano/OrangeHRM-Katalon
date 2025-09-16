@@ -19,4 +19,9 @@
       <initValue>'admin123'</initValue>
       <name>Password</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>expected_login</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

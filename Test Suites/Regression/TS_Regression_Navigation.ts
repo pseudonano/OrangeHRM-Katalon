@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS_Smoke_Navigation</name>
+   <name>TS_Regression_Navigation</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,7 +10,7 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>ec78a7c1-aa32-4664-99a9-ac834f69d866</testSuiteGuid>
+   <testSuiteGuid>1671101c-b7a2-494e-a3d6-3d706942426c</testSuiteGuid>
    <testCaseLink>
       <guid>6551f9b7-362d-49c0-b3e2-e818e5064523</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -54,8 +54,8 @@
          <combinationType>ONE</combinationType>
          <id>353e5505-336f-45c8-b169-9c8196d77463</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>1-2</value>
+            <iterationType>ALL</iterationType>
+            <value></value>
          </iterationEntity>
          <testDataId>Data Files/navigationSidemenu</testDataId>
       </testDataLink>

@@ -17,5 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'orangeHRM.dashboard.navigateSidepanel'("My Info")
-CustomKeywords.'orangeHRM.AssertUtils.assertSidepanel'("PIM")
+GlobalVariable.expected_login = expected
+
+CustomKeywords.'orangeHRM.Auth.login'(username, password)
+CustomKeywords.'orangeHRM.AssertUtils.assertLogin'(expected)
+
+
+

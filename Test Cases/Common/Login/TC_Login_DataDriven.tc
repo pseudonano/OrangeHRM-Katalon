@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_Smoke_Login_Valid</name>
+   <name>TC_Login_DataDriven</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>cd7846d7-d657-44e3-b412-09521475dedb</testCaseGuid>
+   <testCaseGuid>1047f71f-770a-40a3-a5a1-6da74ce01443</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>29e3ec01-f527-4653-9a66-9d60e7ab0595</variableId>
+      <variableId>14d79b4d-7821-406c-8b80-67d90331b1b5</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>0b68a9eb-0411-4bf4-b2ee-7480149eae53</variableId>
+      <variableId>aecb40dd-75ba-4e5a-a320-0d712ccb8dd9</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>3b8ee43e-2a8c-4c52-8a7c-c1bb00260e30</variableId>
+      <variableId>ab8956a1-108d-46ad-bef0-68e0e2a7d44a</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>findTestData('credentials').getValue(1, 1)</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>29e3ec01-f527-4653-9a66-9d60e7ab0595</id>
+      <id>14d79b4d-7821-406c-8b80-67d90331b1b5</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('credentials').getValue(2, 1)</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>0b68a9eb-0411-4bf4-b2ee-7480149eae53</id>
+      <id>aecb40dd-75ba-4e5a-a320-0d712ccb8dd9</id>
       <masked>false</masked>
       <name>password</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('credentials').getValue(3, 1)</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>3b8ee43e-2a8c-4c52-8a7c-c1bb00260e30</id>
+      <id>ab8956a1-108d-46ad-bef0-68e0e2a7d44a</id>
       <masked>false</masked>
-      <name>expected_result</name>
+      <name>expected</name>
    </variable>
 </TestCaseEntity>
